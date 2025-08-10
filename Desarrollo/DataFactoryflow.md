@@ -23,3 +23,13 @@ Además, se aplicó la **arquitectura Medallion** (Layers Bronze, Silver y Gold)
 🐙 GitHub
 
 🔑 Azure Key Vault
+
+## 💻 Desarrollo
+Este proyecto, desarrollado en Azure Data Factory, consistió en la migración de tablas desde SQL Server y la extracción de datos en formato JSON desde GitHub.
+Se implementó Azure Key Vault para reforzar la seguridad en el manejo de credenciales y se utilizó Azure Data Lake Gen2 para almacenar la información en las capas Bronze, Silver y Gold, aplicando control de versiones mediante GitHub.
+
+<p align="center">
+  <img src="../image/arquitecturadraw.png" alt="Diagrama de Arquitectura">
+</p>
+
+## 📒 Grupo de recurso
