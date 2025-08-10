@@ -2,5 +2,5 @@
 ---
 
 <p align="center">
-  <img src="Arquitectura_Draw.png" alt="Diagrama de Arquitectura">
+  <img src="image/arquitecturadraw.png" alt="Diagrama de Arquitectura">
 </p>
