@@ -1,16 +1,18 @@
 {
-	"name": "DS_GITHUB",
+	"name": "DS_GITHUB_RAW",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_HTTP",
+			"referenceName": "LS_DATALAKE",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation",
-				"relativeUrl": "anshlambaoldgit/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/AdventureWorks_Products.csv"
+				"type": "AzureBlobFSLocation",
+				"fileName": "products.csv",
+				"folderPath": "products",
+				"fileSystem": "bronze"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
