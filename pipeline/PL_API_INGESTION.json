@@ -100,12 +100,6 @@
 						]
 					}
 				},
-				"inputs": [
-					{
-						"referenceName": "DS_API_SOURCE",
-						"type": "DatasetReference"
-					}
-				],
 				"outputs": [
 					{
 						"referenceName": "DS_API_SINK",
